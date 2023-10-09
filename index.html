@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parallax</title>
+</head>
+<style>
+    *, html ,body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .parallax {
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100vh;
+    }
+    .intro {
+        background-image: url('1.jpg');
+    }
+    .content {
+        background-image: url('2.jpg');
+    }
+    .content2 {
+        background-image: url('3.jpg');
+    }
+    .footer {
+        background-image: url('4.jpg');
+    }
+    .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .title {
+        font-size: 2.5em;
+        letter-spacing: 1em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+    }
+</style>
+<body>
+    <div class="parallax intro">
+        <div class="text">
+            <div class="text title"> HI GUYSSSS........
+        </div>
+    </div> 
+    <div class="parallax content"></div> 
+    <div class="parallax content2"></div> 
+    <div class="parallax footer"></div> 
+</body>
+</html>
